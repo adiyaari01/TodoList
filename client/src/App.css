@@ -1,0 +1,47 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family:cursive;
+  color:#440047;
+}
+body{
+  min-height: 100vh;
+  background: linear-gradient(to top,#a3d8f4, #DACDFF, #FBD9E2, #FFEEC4);
+  /*overflow-x: hidden;*/
+  
+}
+h1{
+	font-size: 50px;
+  text-align: center;
+}
+.app-container{
+    /*max-width: 25rem;*/
+    /*margin: auto;*/
+    /*padding-top:1.5%;*/
+  }
+
+.task-deleted-icon{
+  float:right;
+  cursor: pointer;
+  opacity:0;
+}
+.task-row-item:hover .task-deleted-icon{
+  opacity:1;
+}
+
+.checkbox{
+  float:left;
+}
+
+.complete{
+  color:#bb8082;
+  text-decoration: line-through;
+}
+
+.filter-button.active{
+  background-color: #bb8082;
+}
+.features{
+  /*margin: 0 auto;*/
+}
